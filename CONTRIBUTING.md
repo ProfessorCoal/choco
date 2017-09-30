@@ -5,7 +5,8 @@ Submitting an Issue (or a Bug)? See the **[Submitting Issues](https://github.com
 
 **NOTE**: Do not submit issues for missing `SolutionVersion.cs`. Please see [Compiling / Building Source](https://github.com/chocolatey/choco#compiling--building-source).
 
-# Submitting an Enhancement / Feature Request?
+# Submitting an Enhancement / Feature Request?
+
 
 This is the right place. See below.
 
@@ -15,7 +16,8 @@ Please see [Request Package Fixes or Updates / Become a maintainer of an existin
 ## Package Request? Package Missing?
 If you are looking for packages to be added to the community feed (aka https://chocolatey.org/packages), please see [Package Requests](https://chocolatey.org/docs/package-triage-process#package-request-package-missing).
 
-# Submitting an Enhancement
+# Submitting an Enhancement
+
 
 Log a github issue. There are less constraints on this versus reporting issues.
 
@@ -50,7 +52,7 @@ What is generally not considered trivial:
  * Through GitHub, or through the [mailing list](https://groups.google.com/forum/#!forum/chocolatey) (preferred), you talk about a feature you would like to see (or a bug), and why it should be in Chocolatey.
    * If approved through the mailing list, ensure the accompanying GitHub issue is created with information and a link back to the mailing list discussion.
  * Once you get a nod from one of the [Chocolatey Team](https://github.com/chocolatey?tab=members), you can start on the feature.
- * Alternatively, if a feature is on the issues list with the [Up For Grabs](https://github.com/chocolatey/choco/issues?q=is%3Aopen+is%3Aissue+label%3A%22Up+For+Grabs%22) label, it is open for a community member to patch. You should comment that you are signing up for it on the issue so someone else doesn't also sign up for the work.
+ * Alternatively, if a feature is on the issues list with the [Up For Grabs](https://github.com/chocolatey/choco/issues?q=is%3Aopen+is%3Aissue+label%3A%22Up+For+Grabs%22) label, it is open for a community member (contributor) to patch. You should comment that you are signing up for it on the issue so someone else doesn't also sign up for the work.
 
 ### Set Up Your Environment
 
@@ -82,7 +84,7 @@ A commit message should observe the following (based on ["A Note About Git Commi
   * After the subject, skip one line and fill out a body if the subject line is not informative enough.
   * Sometimes you will find that even a tiny code change has a commit body that needs to be very detailed and make take more time to do than the actual change itself!
   * The body:
-    * Should indent at `72` characters.
+    * Should wrap at `72` characters.
     * Explains more fully the reason(s) for the change and contrasts with previous behavior.
     * Uses present tense. "Fix" versus "Fixed".
 
